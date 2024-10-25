@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Innovation Summit 2024</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
- 
+
 </head>
+
 <body>
     <header>
         <button id="hamburger-btn" aria-label="Open menu">
@@ -15,11 +17,22 @@
             <span></span>
             <span></span>
         </button>
-        <h1>"Shaping the Future"</h1>
-        <h2>TECH INNOVATION SUMMIT 2024</h2>
-        <p>A cutting-edge gathering of tech visionaries, innovators, and industry leaders from over 50 countries to explore the future of technology in Silicon Valley.</p>
-        <p class="date">2024.09.15(SUN) - 17(TUE)</p>
-        <p class="location">@ Silicon Valley Convention Center, California, USA</p>
+        <div id="menu" class="menu">
+            <a href="#about">About</a>
+            <button id="close-menu-btn">❌</button>
+        </div>
+        <div id="hero">
+            <h2 id="hero-title">TECH INNOVATION SUMMIT 2024</h2>
+
+            <p id="hero-description">A cutting-edge gathering of tech visionaries, innovators, and industry leaders from
+                over 50 countries to
+                explore the future of technology in Silicon Valley.</p>
+            <p class="date">2024.09.15(SUN) - 17(TUE)</p>
+            <p class="location">@ Silicon Valley Convention Center, California, USA</p>
+
+
+        </div>
+
     </header>
 
     <nav id="mobile-menu" class="hidden">
@@ -33,7 +46,7 @@
 
     <main>
         <section id="main-program">
-            <h3>Main Program</h3>
+            <h3 class="program-heading">Main Program</h3>
             <div class="program-item">
                 <img src="keynote.png" alt="Keynote">
                 <h4>Keynote</h4>
@@ -59,32 +72,25 @@
                 <h4>Networking</h4>
                 <p>Connect with peers and potential collaborators.</p>
             </div>
+            <button id="join-btn">Join Tech Summit 2024</button>
         </section>
 
-        <button id="join-btn">Join Tech Summit 2024</button>
+
 
         <section id="featured-speakers">
-            <h3>Featured Speakers</h3>
-            <div class="speaker">
-                <img src="elon musk.jpg" alt="Elon Musk">
-                <h4>Elon Musk</h4>
-                <p>CEO of SpaceX and Tesla</p>
-            </div>
-            <div class="speaker">
-                <img src="fei fei lei.jpg" alt="Fei-Fei Li">
-                <h4>Fei-Fei Li</h4>
-                <p>AI expert and Stanford Professor</p>
-            </div>
+
         </section>
 
         <div class="more-container">
             <button id="more-btn">MORE <span class="arrow-down">▼</span></button>
             <div id="more-content" class="hidden">
-                <p>Additional information about the Tech Innovation Summit 2024 will be revealed soon. Stay tuned for updates on workshops, panel discussions, and networking events!</p>
+                <p>Additional information about the Tech Innovation Summit 2024 will be revealed soon. Stay tuned for
+                    updates on workshops, panel discussions, and networking events!</p>
             </div>
         </div>
     </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>
